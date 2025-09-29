@@ -1,0 +1,14 @@
+{
+    "Comments": "GDSynth Configuration File Teample",
+    "DesiredMutationCandidates": [
+        {
+            "Name": "Name_of_mutation_candidate",
+            "MutationArray": ["original" | "add_edge" | "add_edge_reversed" | "add_edge_type" | "add_node_type" | "change_edge_direction" | "delete_edge_type" | "delete_node_type" | "move_edge"],
+            "SizeScope": [integer],
+            "GraphTool": "graph_generator_name",
+            "TestTool": "tool_name",
+            "GDBMS": "GDBMS_name",
+            "Versions": ["GDBMS_version"]
+        }
+    ]
+}

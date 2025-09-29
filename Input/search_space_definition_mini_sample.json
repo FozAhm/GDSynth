@@ -1,0 +1,14 @@
+{
+    "Comments": "GDSynth Configuration File - Mini Sample",
+    "DesiredMutationCandidates": [
+        {
+            "Name": "add_node_type",
+            "MutationArray": ["add_node_type"],
+            "SizeScope": [30],
+            "GraphTool": "Refinery",
+            "TestTool": "GraphGenie",
+            "GDBMS": "neo4j",
+            "Versions": ["5.1.0"]
+        }
+    ]
+}

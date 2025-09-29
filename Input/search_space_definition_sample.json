@@ -1,0 +1,86 @@
+{
+    "Comments": "GDSynth Configuration File - Large Sample",
+    "DesiredMutationCandidates": [
+        {
+            "Name": "original",
+            "MutationArray": ["original"],
+            "SizeScope": [30],
+            "GraphTool": "Refinery",
+            "TestTool": "GraphGenie",
+            "GDBMS": "neo4j",
+            "Versions": ["5.1.0", "5.4.0"]
+        },
+        {
+            "Name": "add_edge",
+            "MutationArray": ["add_edge"],
+            "SizeScope": [30],
+            "GraphTool": "Refinery",
+            "TestTool": "GraphGenie",
+            "GDBMS": "neo4j",
+            "Versions": ["5.1.0", "5.4.0"]
+        },
+        {
+            "Name": "add_edge_reversed",
+            "MutationArray": ["add_edge_reversed"],
+            "SizeScope": [30],
+            "GraphTool": "Refinery",
+            "TestTool": "GraphGenie",
+            "GDBMS": "neo4j",
+            "Versions": ["5.1.0", "5.4.0"]
+        },
+        {
+            "Name": "add_edge_type",
+            "MutationArray": ["add_edge_type"],
+            "SizeScope": [30],
+            "GraphTool": "Refinery",
+            "TestTool": "GraphGenie",
+            "GDBMS": "neo4j",
+            "Versions": ["5.1.0", "5.4.0"]
+        },
+        {
+            "Name": "add_node_type",
+            "MutationArray": ["add_node_type"],
+            "SizeScope": [30],
+            "GraphTool": "Refinery",
+            "TestTool": "GraphGenie",
+            "GDBMS": "neo4j",
+            "Versions": ["5.1.0", "5.4.0"]
+        },
+        {
+            "Name": "change_edge_direction",
+            "MutationArray": ["change_edge_direction"],
+            "SizeScope": [30],
+            "GraphTool": "Refinery",
+            "TestTool": "GraphGenie",
+            "GDBMS": "neo4j",
+            "Versions": ["5.1.0", "5.4.0"]
+        },
+        {
+            "Name": "delete_edge_type",
+            "MutationArray": ["delete_edge_type"],
+            "SizeScope": [30],
+            "GraphTool": "Refinery",
+            "TestTool": "GraphGenie",
+            "GDBMS": "neo4j",
+            "Versions": ["5.1.0", "5.4.0"]
+        },
+        {
+            "Name": "delete_node_type",
+            "MutationArray": ["delete_node_type"],
+            "SizeScope": [30],
+            "GraphTool": "Refinery",
+            "TestTool": "GraphGenie",
+            "GDBMS": "neo4j",
+            "Versions": ["5.1.0", "5.4.0"]
+        },
+        {
+            "Name": "move_edge",
+            "MutationArray": ["move_edge"],
+            "SizeScope": [30],
+            "GraphTool": "Refinery",
+            "TestTool": "GraphGenie",
+            "GDBMS": "neo4j",
+            "Versions": ["5.1.0", "5.4.0"]
+        }
+    ]
+}
