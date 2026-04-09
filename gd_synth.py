@@ -8,6 +8,7 @@ import json
 import copy
 import re
 import time
+import ssl
 import docker
 from docker.models.containers import Container
 from docker.errors import NotFound, APIError
@@ -158,6 +159,14 @@ class Metamodel:
 
         # Set the random seed for the local random generator for reproducibility
         self.random_generator = random.Random(random_seed)
+
+        # Handle the SSL certificate verification failure in some cases for the NLTK download
+        try:
+            _create_unverified_https_context = ssl._create_unverified_context
+        except AttributeError:
+            pass
+        else:
+            ssl._create_default_https_context = _create_unverified_https_context
 
         # Download required NLTK data for random node generation
         nltk.download('words', quiet=True)
